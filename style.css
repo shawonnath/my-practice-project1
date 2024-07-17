@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    padding: 0pcx;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+span{
+    color: rgb(255, 144, 14);
+}
+
+/*----header style start----*/
+.head{
+    width: 100%;
+    height: 850px;
+    background-color: antiquewhite;
+}
+/*----nav style start----*/
+.nav-container h1{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    padding-top: 30px;
+}
+.nav-container .nav-manu a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-weight: bold;
+    color: rgb(117, 114, 114);
+}
+.nav-container .nav-manu a:hover{
+    text-decoration: underline;
+    color: rgb(255, 144, 14);
+}
+/*----nav style end----*/
+
+.header-title{
+    width: 60%;
+    height: 150px;
+    margin: 0px auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.header-title h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.header-title p{
+    color: rgb(117, 114, 114);
+    padding-top: 5px;
+}
+.button-style{
+    text-align: center;
+}
+.button-style button{
+    background-color: rgb(255, 144, 14);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid black;
+}
+.image{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+/*header style end*/
+
+
+/*----main style start----*/
+main{
+    margin-top: 80px;
+}
+.main-section1{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+.main-section1 .image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.img{
+    width: 230px;
+    height: 230px;
+}
+.main-section1 .section1-summary{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.quick-list{
+    color: rgb(117, 114, 114);
+}
+.main-section1 .section1-summary p{
+    color: rgb(117, 114, 114);
+    padding-top: 10px;
+
+}
+button{
+    background-color: rgb(255, 144, 14);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.img-sec2{
+    width: 45%;
+    height: 560px;
+}
+.main-section2{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 80px;
+    position: relative;
+}
+.sec2-style{
+    position: absolute;
+    width: 5px;
+    height: 60px;
+    background-color: rgb(255, 144, 14);
+}
+.sec2-style2{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    background-color: rgb(255, 144, 14);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    left: 55%;
+    top: 520px;
+}
+.main-sec2-summary h2{
+    margin-top: 5px; 
+    margin-left: 20px;
+}
+.main-sec2-summary p{
+    padding-top: 10px;
+    color: rgb(117, 114, 114);
+}
+.blog1{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgb(227, 222, 222);
+}
+
+
+.main-section3{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.main-section3 p{
+    margin-top: 10px;
+    color: rgb(117, 114, 114);
+}
+
+
+.section4{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 10px;
+}
+.we-will-do{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(251, 241, 229);
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 8px;
+}
+.we-will-do p{
+    color: rgb(117, 114, 114);
+    font-weight: bold;
+}
+
+
+.section5{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+} 
+.section-title{
+    text-align: center;
+}
+.section-title p{
+    margin-top: 10px;
+    color: rgb(117, 114, 114);
+}
+.sec5-img5{
+    width: 100px;  
+}
+.sec5-img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+/*main end*/
+
+/*footer start*/
+footer{
+    width: 80%;
+    height: 60px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+/*footer end*/
+
+
+
+
+
+
+/*responsive nav*/
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-manu{
+        display: flex;
+        padding-top: 20px;
+    }
+
+}
+/*nav responsive end*/
+/*responsive header*/
+@media screen and (max-width:576px){
+    .header-title{
+        width: 60%;
+        height: 300px;
+        margin: 0px auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .head{
+        width: 100%;
+        height: 700px;
+    }
+}
+/*responsive header end*/
+/*responsive main section1 start*/
+@media screen and (max-width:576px){
+    .main-section1{
+        display: block;
+    } 
+    .main-section1 .image-grid{
+        display: block;
+        margin-left: 20%;
+    }
+    .main-section1 .section1-summary{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}
+/*responsive main section1 end*/
+/*responsive section2 */
+@media screen and (max-width:576px){
+    .main-section2{
+        display: block;
+        height: 1150px;
+    }
+    .img-sec2{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .sec2-style2{
+        top: 1070px;
+        left: 2px;
+    }
+}
+/*responsive section2 end*/
+/*section4 responsive*/
+@media screen and (max-width:576px){
+    .section4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*section4 responsive end*/
+/*section5 responsive*/
+@media screen and (max-width:576px){
+    .sec5-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 10px;
+    }
+}
+/*section5 responsive end*/
+/*footer responsive*/
+@media screen and (max-width:576px){
+    footer{
+        height: 80px;
+    }
+}
