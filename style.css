@@ -317,6 +317,9 @@ footer p{
         grid-template-columns: repeat(2 , 1fr);
         gap: 10px;
     }
+    .main-section3{
+        margin-top: 150px;
+    }
 }
 /*section5 responsive end*/
 /*footer responsive*/
